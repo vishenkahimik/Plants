@@ -2,7 +2,113 @@
 	font-family: Inter;
 	src: url(/fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
+@font-face {
+	font-family: Inika;
+	src: url(/fonts/Inika-Regular.ttf);
+}
+body,
+html {
+	min-height: 100vh;
+}
+body {
+	min-height: 100vh;
+	display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+}
 
-nav a {
-	font-size: 0.8rem;
+.container {
+	max-width: 1220px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+/* --------------------------
+--------------------------
+--------------------------
+header-box */
+
+.header {
+	background: #EDF2EC;
+}
+.header-container {
+	font-family: Inika, Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding: 54px 0;
+	background-color: #EDF2EC;
+}
+.logo {
+	display: flex;
+	align-items: flex-end;
+}
+.logo-svg {
+	display: block;
+}
+.logo-text {
+	margin: 0;
+}
+.nav__list {
+	display: flex;
+	padding-left: 0px;
+	gap: 2.93rem;
+	margin: 0;
+}
+.nav__list-item {
+	display: block;
+}
+.nav__list-link {
+	text-decoration: none;
+	color: #010201;
+}
+
+/* --------------------------
+--------------------------
+--------------------------
+main-box */
+
+.main {
+	flex: 1 1 auto;
+}
+.wellcome {
+	background-color: #EDF2EC;
+}
+.wellcome__header {
+	margin: 0;
+	font-weight: 700;
+	font-size: 2.81rem;
+}
+.wellcome__container {
+	padding: 56px 0;
+	display: flex;
+	justify-content: space-between;
+	gap: 13.1rem;
+	align-items: center;
+}
+.wellcome__box {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 46px;
+}
+.wellcome__text {
+font-size: 20px;
+font-weight: 400;
+line-height: 35px;
+margin: 0;
+}
+.wellcome__button {
+	font-size: 16px;
+	border: 2px solid #E06733;
+   border-radius: 10px;
+	background-color: transparent;
+	text-transform: uppercase;
+	cursor: pointer;
+	padding: 10px 25px;
+}
+.wellcome__span {
+	color: #499A18;
 }
